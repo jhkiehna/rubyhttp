@@ -5,9 +5,10 @@ After=network.target
 [Service]
 Type=simple
 
-User=hank
+#Might need a user that doesn't require a password
+User=systemuser
 
-WorkingDirectory=/home/hank/
+WorkingDirectory=/home/systemuser/
 ExecStart=/usr/bin/ruby http-script.rb
 
 
