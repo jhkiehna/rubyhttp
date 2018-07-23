@@ -1,9 +1,13 @@
 #Setting up systemd service
 
-sudo apt-get install ruby
-sudo apt-get install ruby-dev
-sudo apt-get install build-essential
-need gem install 'http'
+-sudo apt-get install ruby
+
+-sudo apt-get install ruby-dev
+
+-sudo apt-get install build-essential
+
+-need gem install 'http'
+
 
 copy the service to /etc/systemd/system/
 
