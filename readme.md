@@ -1,8 +1,11 @@
 #Setting up systemd service
 
+sudo apt-get install ruby
+sudo apt-get install ruby-dev
+sudo apt-get install build-essential
 need gem install 'http'
 
-copy service to /etc/systemd/system/
+copy the service to /etc/systemd/system/
 
 run these commands so the service is loaded when the system reboots
 
