@@ -1,0 +1,15 @@
+[Unit]
+Description=Test Script
+After=network.target
+
+[Service]
+Type=simple
+
+User=hank
+
+WorkingDirectory=/home/hank/
+ExecStart=/usr/bin/ruby http-script.rb
+
+
+[Install]
+WantedBy=multi-user.target
